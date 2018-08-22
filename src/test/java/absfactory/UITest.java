@@ -6,6 +6,7 @@ public class UITest {
     
     @Test
     public void osUITest() {
+    	// Windows的UI
         UIFactory uifWin = new WindowsUIFactory();
         Button btn1 = uifWin.getButton();
         DropdownList ddList1 = uifWin.getDropdownList();
